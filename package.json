@@ -1,0 +1,29 @@
+{
+  "name": "cursojsplatzom",
+  "version": "0.1.0",
+  "description": "traductor de idioma inventado",
+  "main": "dist/src/cursojsplatzom.js",
+  "scripts": {
+    "build": "babel src/cursojsplatzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgregoriogomez/cursoJsPlatzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Gregorio Gómez <jgregoriogomez@gmail.com> (https://twitter.com/jgregoriogomez)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  }
+}
